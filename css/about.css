@@ -65,10 +65,7 @@
     padding: 0 5px 5px 5px;
     justify-items: center;
 }
-.cont{ padding: 30px;
- left: -80%;
- right:-50% ;
-}
+
 #hi{
    
     font-size: 40px;
@@ -115,13 +112,12 @@
 
 }
 
-@media screen and(max-width:480px) {
+@media screen and(max-width:400px) {
     
     .ab-container{
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: block;
+        
         justify-content: center;
        padding: 0 10px 0 10px;
     }
@@ -142,7 +138,8 @@
         padding: 8px;
     }
     .ab-con{
-        width: 80%;
+        width: 100%;
+        justify-content: center;
     
     }
      .cont{
@@ -151,6 +148,7 @@
 
           
      }
+     
     .social a img {
         width: 15px ;
         
