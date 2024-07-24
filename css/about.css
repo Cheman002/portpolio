@@ -159,8 +159,14 @@
     .ab-con{
         width: 100%;
         justify-content: center;
-        z-index: -1;
-    
+    }
+    #hi {
+        font-size: 1.5rem;
+    }
+
+    .cont p {
+        text-align: justify;
+        font-size: 1rem;
     }
      .cont{
         width: 100%;
