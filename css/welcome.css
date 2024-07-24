@@ -1,0 +1,74 @@
+/*.......welcome section...........*/
+.h-container{
+    margin: 2px 10px 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 0 20px 20px 20px;
+}
+.h-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+   
+}
+.h-img img{
+    width: 350px;
+    height: auto;
+ border: double 5px transparent;
+ border-radius: 10px;
+ background-image: linear-gradient(blue,purple);
+
+}
+
+.h-title{
+   
+    width: 100%;
+    height: auto;
+    font-family: 'Tangerine';
+    font-size: 60px;
+   font-weight:bolder;
+   text-wrap:wrap;
+   /*text-shadow: 1px 1px 4px rgb(99, 106, 109),2px 2px 7px rgb(95, 100, 100);*/
+   padding: 15px;
+   
+}
+#hp{
+    
+    background:linear-gradient(to right, rgb(40, 40, 235),purple);
+    background-clip: text;
+   color: transparent;
+}
+.h-h{
+    padding: 10px 0 1px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.h-h h2{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight:1000;
+}
+.h-ha{
+    padding: 0 0 25px 0;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}  
+@media screen and (max-width:600px){
+    .h-img img{
+      width: 250px;
+    }
+    .h-title{
+        font-size: 18px;
+    }
+}

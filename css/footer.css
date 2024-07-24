@@ -1,0 +1,61 @@
+/*...........footer...............*/
+footer{
+   
+    height: auto;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-top: 2px solid #099FFF;
+}
+.f-ti{
+    margin: 8px 0 -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f-ti h2{
+      font-family: monospace;
+      font-style: italic;
+      font-size: 25px;
+}
+.foot .con{
+    margin: 10px 0 0 0; 
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+  
+}
+.con a {
+    font-size: 25px;
+    color:snow;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.con a:hover{
+    background-color: rgb(216, 188, 243);
+    border-radius: 8px;
+    transition: .10s ease-out;
+}
+.con img{
+   width: 45px;
+   height: 45px;
+}
+#git{
+    width: 40px;
+    height: 40px;
+}
+.cop{
+    font-size: 19px;
+    text-align: center;
+    font-family: monospace;
+}
+@media only screen and (max-width: 600px) {
+    .con img{
+     width: 35px;
+     height: 35px;
+    }
+    #git{
+        width: 30px;
+        height: 30px;
+    }
+}
