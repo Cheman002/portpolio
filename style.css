@@ -496,6 +496,9 @@ html{
     }
   }
   @media only screen and (min-width:350px) and (max-width:480px) {
+    html{
+        overflow-x:hidden ;
+    }
     .button{
      --fs-size:1rem;
      font-size: var(--fs-size);
