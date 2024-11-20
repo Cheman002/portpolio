@@ -1,7 +1,7 @@
 html{
     overflow-x:hidden;
   }
-  body {
+ body {
     padding-bottom: 20px;
   }
   #myBtn {
@@ -499,6 +499,9 @@ html{
     html{
         overflow-x:hidden ;
     }
+    body{
+        overflow-x: hidden;
+    }
     .button{
      --fs-size:1rem;
      font-size: var(--fs-size);
@@ -522,6 +525,9 @@ html{
   @media only screen and (max-width:768px) {
     html{
         overflow-x:hidden ;
+    }
+    body{
+        overflow-x: hidden;
     }
      .button{
          --fs-size:1.2em;
