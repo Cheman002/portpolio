@@ -48,6 +48,23 @@
     .mySlides{
         margin: 0;
     }
+    .sk{
+        width: 15vh;
+    }
+    .left{
+        width: 500vh;
+    }
+    .right{
+        margin-top: 20px;
+        height: auto;        
+        width: 25vh;
+    }
+    .right h2{
+        font-size: 1.2rem;
+    }
+    .right a{
+        font-size: 1rem;
+    }
   }
   @media only screen and (max-width:768px) {
     html{

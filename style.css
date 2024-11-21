@@ -428,17 +428,17 @@ html{
   .left{
     width: 700px;
     height: auto;
-    padding: 30px;
+    padding: 20px;
   }
   .left img{
     width: 100%;
     border: 1px solid greenyellow;
   }
   .right{
-    margin-top: 55px;
+    margin-top: 30px;
     padding:10px ;
     width: 350px;
-    height: 200px;
+    height: auto;
     text-align: center;
     border: 1px solid greenyellow;
     border-radius: 10px;
