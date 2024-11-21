@@ -27,6 +27,27 @@
     .about-text p{
         padding: 0 20px 0 20px;
     }
+    .wrapper{
+        padding: 0 20px 0 20px;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    .edu-container{
+        padding: 0px 10px;
+    }
+    .edu{
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 300vh;
+    }
+    .edu img{
+        width: 100%;
+    }
+    .mySlides{
+        margin: 0;
+    }
   }
   @media only screen and (max-width:768px) {
     html{
