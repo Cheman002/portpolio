@@ -173,71 +173,9 @@ html{
     font-style:italic;
     color: #F6D2CB;
   }
-  /*-----Education-----*/
-  .eduction{
-    background: #431B0F;
-    padding: 10px;
-  }
-  .edu-container{
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   text-align: center;
-   padding: 10px 20px;
-  }
-  .edu{
-    background-color:#D5D3E9;
-    color: #3F190E;
-    width: 400px;
-    height:auto;
-    border: 1.5px solid lightgreen;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    text-align: center;
-  }
-  .edu h4{
-    font-weight: 700;
-    font-style: italic;
-    text-decoration: underline;
-  }
-  .edu p{
-    padding: 10px;
-    font-size: 17px;
-  }
-  .edu p a{
-    font-size: 20px;
-    text-decoration: none;
-  }
-  .mySlides{
-    vertical-align: middle;
-    position: relative;
-    margin: 10px;
-  }
-  #school{
-    justify-content: center;
-    position: relative;
-  }
-  .text {
-    color: #FF0088;
-    font-size: 20px;
-    font-weight: 700 ;
-    padding: 8px 20px ;
-    margin: 0 20px 0 10px;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: right;
-  }
-  .edu img{
-    width: 360px;
-    height: 250px;
-    border: 1px solid black;
-    border-radius: 10px;
-  }
   .wrapper {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     height: 120px;
     width: 100%;
@@ -388,6 +326,70 @@ html{
     color: #fff;
   }
   
+  /*-----Education-----*/
+  .eduction{
+    background: #431B0F;
+    padding: 10px;
+  }
+  .edu-container{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   text-align: center;
+   padding: 10px 20px;
+  }
+  .edu{
+    background-color:#D5D3E9;
+    color: #3F190E;
+    width: 400px;
+    height:auto;
+    border: 1.5px solid lightgreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  .edu h4{
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .edu p{
+    padding: 10px;
+    font-size: 17px;
+  }
+  .edu p a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .mySlides{
+    vertical-align: middle;
+    position: relative;
+    margin: 10px;
+  }
+  #school{
+    justify-content: center;
+    position: relative;
+  }
+  .text {
+    color: #FF0088;
+    font-size: 20px;
+    font-weight: 700 ;
+    padding: 8px 20px ;
+    margin: 0 20px 0 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: right;
+  }
+  .edu img{
+    width: 360px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+ 
   
   /*-----Skill-----*/
   .skill{
@@ -495,58 +497,5 @@ html{
       overflow: visible;
     }
   }
-  @media only screen and (min-width:350px) and (max-width:480px) {
-    html{
-        overflow-x:hidden ;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    .button{
-     --fs-size:1rem;
-     font-size: var(--fs-size);
-    }
-    .navbar-nav li a{
-     font-size: 18px;
-    }
-    .wel h2{
-    font-size: 1.12rem;
-    }
-    .wel h1{
-    font-size: 1.33rem;
-    }
-    .head h2{
-     font-size: 19px;
-    }
-    .my-img{
-     width: 270px;
-    }
-  }
-  @media only screen and (max-width:768px) {
-    html{
-        overflow-x:hidden ;
-    }
-    body{
-        overflow-x: hidden;
-    }
-     .button{
-         --fs-size:1.2em;
-         font-size: var(--fs-size);
-        }
-        .navbar-nav li a{
-         font-size: 20px;
-        }
-        .wel h2{
-          font-size: 1.3rem;
-        }
-        .wel h1{
-          font-size: 1.6rem;
-        }
-        .head h2{
-         font-size: 30px;
-        }
-        .my-img{
-         width: 300px;
-        }
-  }
+ 
   

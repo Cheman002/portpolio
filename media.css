@@ -1,0 +1,57 @@
+@media only screen and (min-width:350px) and (max-width:480px) {
+    html{
+        overflow-x:hidden ;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .button{
+     --fs-size:1rem;
+     font-size: var(--fs-size);
+    }
+    .navbar-nav li a{
+     font-size: 18px;
+    }
+    .wel h2{
+    font-size: 1.12rem;
+    }
+    .wel h1{
+    font-size: 1.33rem;
+    }
+    .head h2{
+     font-size: 19px;
+    }
+    .my-img{
+     width: 270px;
+    }
+    .about-text p{
+        padding: 20px;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    html{
+        overflow-x:hidden ;
+    }
+    body{
+        overflow-x: hidden;
+    }
+     .button{
+         --fs-size:1.2em;
+         font-size: var(--fs-size);
+        }
+        .navbar-nav li a{
+         font-size: 20px;
+        }
+        .wel h2{
+          font-size: 1.3rem;
+        }
+        .wel h1{
+          font-size: 1.6rem;
+        }
+        .head h2{
+         font-size: 30px;
+        }
+        .my-img{
+         width: 300px;
+        }
+  }
